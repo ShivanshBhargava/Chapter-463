@@ -6,7 +6,7 @@
   align-items: center;
   height: 100vh;
   padding: 2rem;
-  background-color: #f4f4f9;
+  background-color: #000000;
   text-align: center;
 }
 
@@ -94,6 +94,8 @@
   border-radius: 5px;
   cursor: pointer;
   margin-top: 4rem;
+  display:inline;
+  /* margin-bottom:-7rem; */
   opacity: 0.3;
 }
 
