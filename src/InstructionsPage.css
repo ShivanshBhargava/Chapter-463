@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  body {
+    font-family: 'VT323', monospace;
+    font-weight: 700;
+    background-color: #000000;
+  }
+
+.instructions-container {
+    font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.instructions-title {
+  font-size: 2.7rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.instructions-content {
+    font-size: 1.4rem;
+    /* max-width: 800px; */
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.instructions-list {
+    font-size: 1.4rem;
+  text-align: left;
+  margin: 2rem 0;
+  padding: 0 2rem;
+}
+
+.instructions-list li {
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.back-button {
+  font-size: 1.5rem;
+  background-color: #000000;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  cursor:pointer;
+  padding: 10px 20px;
+  margin-top: 2rem;
+}
+
+.back-button:hover {
+  background-color: #ffffff;
+  color:#000000;
+  border:3px solid white;
+}
+
+
+@media (max-width: 600px) {
+  .instructions-title {
+    font-size: 2rem;
+  }
+
+  .instructions-content {
+    padding: 0 1rem;
+  }
+
+  .instructions-list {
+    padding: 0 1rem;
+  }
+}
+  

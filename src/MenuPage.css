@@ -1,0 +1,72 @@
+/* src/MenuPage.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'VT323', monospace;
+    font-weight: 700;
+    background-color: #000000;
+  }
+  
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .game-title {
+    font-size: 8rem;
+    margin-bottom:-0.2rem;
+    color: white;
+  }
+
+  .game-icon {
+    height:20rem;
+  }
+
+  .game-author {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color:white;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .menu-button {
+    padding: 25px 80px;
+    font-size: 2rem;
+    background-color: #000000;
+    color: white;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-button:hover {
+    background-color: #ffffff;
+    color:#000000;
+    border: 5px solid #ffffff;
+  }
+  
+  @media (max-width: 600px) {
+    .game-title {
+      font-size: 2rem;
+    }
+  
+    .menu-button {
+      font-size: 1rem;
+      padding: 12px 24px;
+    }
+  }
+  
