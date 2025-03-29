@@ -26,5 +26,18 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
     "vite": "^6.2.0"
-  }
+  },
+  "description": "HEAD # Chapter-463 a choice-based interactive game where you select your own path, made using React. As a young adventurer with mysterious powers, your decisions guide the story, leading to different outcomes. =======",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivanshBhargava/Chapter-463.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivanshBhargava/Chapter-463/issues"
+  },
+  "homepage": "https://github.com/ShivanshBhargava/Chapter-463#readme"
 }
