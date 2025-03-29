@@ -472,13 +472,14 @@ const GamePage = () => {
               </button>
             ))}
           </div>
-          <button className="button-s" onClick={handleRestart} style={{marginRight:"20rem"}}>
+          <div style={{display:'flex', justifyContent:'space-evenly', width:'35rem'}}>
+          <button className="button-s" onClick={handleRestart}>
             Restart Game
           </button>
-          
           <button className="button-s" onClick={handleMenu}>
             Back to Menu
           </button>
+          </div>
         </>
       )}
     </div>
